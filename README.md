@@ -111,7 +111,9 @@ while True:
 
  ## Server:
  
- ![Uploading Screenshot 2024-05-07 085714.png…]()
+
+![Screenshot 2024-05-07 085714](https://github.com/PreethiS647/ChatStudy/assets/147313372/fd75d4a3-832c-46e7-bfbe-91784f16e915)
+
 
  
  ## Result:
