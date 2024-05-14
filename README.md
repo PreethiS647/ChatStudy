@@ -78,6 +78,7 @@ Client-server chat applications are foundational to real-time communication over
 
 ## Program:
 ## Client:
+```
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -97,16 +98,16 @@ while True:
  print(ack)
  i+=s
 
-
+```
 ## Server:
-
+```
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True: 
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
-
+```
  ## Output:
  ## Client:
  
